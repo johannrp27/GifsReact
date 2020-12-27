@@ -1,0 +1,14 @@
+.title {
+    text-align: center;
+    font-size: 32px;
+}
+hr{
+    border:gainsboro 1px solid;
+}
+
+input{
+    border: none;
+    height: 25px;
+    background-color: #ececec;
+    justify-content: center;
+}
