@@ -2,3 +2,26 @@ html, body {
     font-family: sans-serif;
     padding: 5px;
 }
+.img {
+    height: 150px;
+}
+.card p {
+    height: 40px;
+    text-transform: capitalize;
+}
+.card{
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin: 5px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.animate__animated.animate__fadeInDown {
+    --animate-duration: 3s;
+}
