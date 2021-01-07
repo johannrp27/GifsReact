@@ -9,7 +9,7 @@ const GifExpertApp = () =>{
     
     const view = 
     <>
-    <h2 className="title">GifExpertApp</h2>
+    <h2 className="title">GifExpertApp - Johann</h2>
     <AddCategory setCategories={setCategories}/>
     <hr/>
     {categories.map(x => <GifGrid key= {x} category={x} /> ) }
